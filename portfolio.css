@@ -1,0 +1,512 @@
+@import url("https://fonts.googleapis.com/css2?family=Redaction+20:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Redaction 20", Arial, sans-serif;
+  background-color: white;
+  color: #334155;
+  line-height: 1.2;
+}
+head {
+  background-color: #e8f1f5;
+}
+
+header {
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121b2e;
+  padding: 40px 20px;
+  height: 100%;
+  width: 100%;
+}
+header h1 {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  color: #38bdf8;
+  letter-spacing: 1px;
+  font-size: 24px;
+}     
+header p {
+  font-size: 16px;
+  color: #c9bbbb;
+  margin-bottom: 20px;
+}
+
+nav {
+  margin: 20px;
+}
+nav a {
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  text-decoration: none;
+  margin: 0, 5px;
+  font-size: 15px;
+  font-weight: 600px;
+  padding: 10px 20px;
+  border-radius: non;
+  border: 1px solid white;
+  background-color: rgb(255, 255, 255, 0.1);
+}
+
+nav a:hover {
+  background-color: hwb(198 22% 3%);
+  box-shadow: 0 2px 8px rgb(111, 190, 204);
+}
+#info {
+  padding: 40px 40px 10px;
+  border: 4px solid #c9bbbb;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+  display: inline-block;
+  margin-top: 30px;
+  background-color: white;
+}
+#info h1 {
+  border-left: 5px solid hwb(198 22% 3%);
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+#img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 33%;
+}
+.pw {
+  border: 1px solid #c9bbbb;
+  background-color: #faeeee;
+  padding: 10px 20px 20px;
+}
+.myproject {
+  padding: 0 30px;
+  border: 4px solid #c9bbbb;
+  border-radius: 10px;
+  margin-left: 25%;
+  display: inline-block;
+  margin-top: 30px;
+  background-color: rgb(255, 254, 254);
+  width: 55%;
+}
+
+section article h1 {
+  border-left: 5px solid hwb(198 22% 3%);
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+#git {
+  border: 1px solid #c9bbbb;
+  background-color: #faeeee;
+  display: inline-block;
+  padding: 10px 20px 20px;
+  margin: 20px;
+}
+
+.container {
+  border: 2px solid #fcfbff;
+  background-color: #ece5fc;
+  border-radius: 10px;
+  padding: 10px;
+  overflow: hidden;
+}
+article a {
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: #38bdf8;
+    text-decoration: none;
+    font-weight: 800;
+    margin-top: 10px;
+}
+article a:hover {
+  background-color: hwb(268 19% 19%);
+ box-shadow: 0 2px 8px rgb(111, 190, 204);
+}
+
+.hub{
+color: white;
+
+}
+.Skills {
+  background-color: #ece5fc;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+#btn ul {
+  font-size: 16px;
+  color: #334155;
+  margin-bottom: 12px;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+#btn li {
+  border: 3px solid rgb(48, 168, 204);
+  border-radius: 15px;
+  padding: 8px;
+}
+#btn li:hover {
+  box-shadow: 0 2px 8px #33728d;
+}
+.intro {
+  border: 4px solid #c9bbbb;
+  margin-left: 25%;
+  width: 55%;
+  margin-top: 30px;
+  border-radius: 2%;
+  padding: 10px 30px;
+}
+section h2 {
+  border-left: 4px solid rgb(48, 168, 204);
+  justify-content: center;
+}
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  border: 4px solid #c9bbbb;
+  margin-left: 25%;
+  width: 55%;
+  margin-top: 30px;
+  border-radius: 2%;
+  padding: 10px 30px;
+  height: 500px;
+  margin-bottom: 60px;
+  background-color: #172235;
+}
+
+footer h2 {
+  border-left: 4px solid rgb(48, 168, 204);
+  color: #e8f1f5;
+}
+
+footer p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #9fa6b2;
+  gap: 20px;
+}
+
+.ex {
+  color: #38bdf8;
+}
+
+#name {
+  border: 1px solid #9fa6b2;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #172235;
+}
+label {
+  color: #9fa6b2;
+}
+#email {
+  border: 1px solid #9fa6b2;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #172235;
+}
+#message {
+  background-color: #172235;
+  outline: auto;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+}
+
+#message:focus {
+  outline-color: #33728d;
+}
+
+button {
+  border: 1px solid #9fa6b2;
+  color: #edeff1;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #29a6db;
+  font-weight: 1000;
+}
+button:hover {
+  background-color: #089ca1;
+  box-shadow: 0 2px 8px #26dce2;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #334155;
+  font-size: 14px;
+  color: #94a3b8;
+}
+div a {
+  color: #38bdf8;
+}
+
+/* =================================
+   RESPONSIVE DESIGN
+   ================================= */
+
+/* Common settings */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    height: auto;
+    min-height: 220px;
+    padding: 30px 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 15px;
+    font-size: clamp(22px, 4vw, 32px);
+}
+
+header p {
+    margin-bottom: 15px;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+nav a {
+    margin: 0;
+    padding: 10px 15px;
+}
+
+/* ABOUT SECTION */
+#info {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+    display: block;
+    padding: 25px;
+}
+
+#info h1 {
+    font-size: clamp(23px, 4vw, 30px);
+}
+
+#img {
+    display: block;
+    width: 170px;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin: 20px auto;
+}
+
+.pw {
+    overflow-wrap: anywhere;
+}
+
+/* PROJECT SECTION */
+.myproject {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+    display: block;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+}
+
+#git {
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+/* SKILLS */
+.Skills {
+    margin: 20px 0 10px;
+}
+
+#btn ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* INTRO SECTION */
+.intro {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.video {
+    width: 100%;
+}
+
+#vid {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: auto;
+}
+
+/* FOOTER */
+footer {
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+    min-height: 0;
+    margin: 30px auto 60px;
+    padding: 25px;
+}
+
+/* FORM */
+input,
+textarea {
+    max-width: 100%;
+    font: inherit;
+}
+
+#name,
+#email {
+    width: min(100%, 300px);
+}
+
+#message {
+    width: 100%;
+    max-width: 400px;
+    resize: vertical;
+}
+
+/* FOOTER BOTTOM */
+.footer-bottom {
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* =================================
+   MOBILE RESPONSIVE
+   ================================= */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 25px 12px;
+    }
+
+    header h1 {
+        font-size: 23px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    nav a {
+        font-size: 13px;
+        padding: 9px 12px;
+    }
+
+    #info,
+    .myproject,
+    .intro,
+    footer {
+        width: 94%;
+        padding: 18px;
+    }
+
+    #info h1,
+    section article h1 {
+        font-size: 24px;
+    }
+
+    .pw {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    #btn ul {
+        gap: 8px;
+    }
+
+    #btn li {
+        font-size: 14px;
+        padding: 7px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* SMALL MOBILE */
+@media (max-width: 360px) {
+
+    nav {
+        gap: 6px;
+    }
+
+    nav a {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    #info,
+    .myproject,
+    .intro,
+    footer {
+        width: 96%;
+        padding: 12px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
